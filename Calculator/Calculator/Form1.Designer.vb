@@ -276,6 +276,7 @@ Partial Class Form1
         '
         'Clear
         '
+        Me.Clear.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Clear.Location = New System.Drawing.Point(377, 96)
         Me.Clear.Name = "Clear"
         Me.Clear.Size = New System.Drawing.Size(116, 55)
@@ -285,6 +286,7 @@ Partial Class Form1
         '
         'Backspace
         '
+        Me.Backspace.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Backspace.Location = New System.Drawing.Point(499, 96)
         Me.Backspace.Name = "Backspace"
         Me.Backspace.Size = New System.Drawing.Size(116, 55)
