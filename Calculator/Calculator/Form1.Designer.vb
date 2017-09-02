@@ -141,7 +141,7 @@ Partial Class Form1
         'Six
         '
         Me.Six.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Six.Location = New System.Drawing.Point(560, 220)
+        Me.Six.Location = New System.Drawing.Point(560, 218)
         Me.Six.Name = "Six"
         Me.Six.Size = New System.Drawing.Size(55, 55)
         Me.Six.TabIndex = 9
