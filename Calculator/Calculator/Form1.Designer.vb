@@ -160,6 +160,7 @@ Partial Class Form1
         '
         'Square
         '
+        Me.Square.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Square.Location = New System.Drawing.Point(377, 157)
         Me.Square.Name = "Square"
         Me.Square.Size = New System.Drawing.Size(55, 55)
@@ -169,6 +170,7 @@ Partial Class Form1
         '
         'SquareRoot
         '
+        Me.SquareRoot.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SquareRoot.Location = New System.Drawing.Point(377, 218)
         Me.SquareRoot.Name = "SquareRoot"
         Me.SquareRoot.Size = New System.Drawing.Size(55, 55)
@@ -188,6 +190,7 @@ Partial Class Form1
         '
         'Exponent
         '
+        Me.Exponent.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Exponent.Location = New System.Drawing.Point(377, 279)
         Me.Exponent.Name = "Exponent"
         Me.Exponent.Size = New System.Drawing.Size(55, 55)
@@ -197,6 +200,7 @@ Partial Class Form1
         '
         'Roots
         '
+        Me.Roots.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Roots.Location = New System.Drawing.Point(377, 340)
         Me.Roots.Name = "Roots"
         Me.Roots.Size = New System.Drawing.Size(55, 55)
