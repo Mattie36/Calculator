@@ -79,4 +79,48 @@
         number = number / 10
         TextBox1.Text = number
     End Sub
+
+    Private Sub Plus_Click(sender As Object, e As EventArgs) Handles Plus.Click
+        store = number
+        TextBox2.Text = store
+        number = 0
+        TextBox1.Text = number
+        addition = True
+    End Sub
+
+    Private Sub Minus_Click(sender As Object, e As EventArgs) Handles Minus.Click
+        store = number
+        TextBox2.Text = store
+        number = 0
+        TextBox1.Text = number
+        subtraction = True
+    End Sub
+
+    Private Sub Multiply_Click(sender As Object, e As EventArgs) Handles Multiply.Click
+        store = number
+        TextBox2.Text = store
+        number = 0
+        TextBox1.Text = number
+        multiplication = True
+    End Sub
+
+    Private Sub Divide_Click(sender As Object, e As EventArgs) Handles Divide.Click
+        store = number
+        TextBox2.Text = store
+        number = 0
+        TextBox1.Text = number
+        division = True
+    End Sub
+
+    Private Sub Solve_Click(sender As Object, e As EventArgs) Handles Solve.Click
+        If addition = True Then
+            displayed = store + number
+            TextBox1.Text = displayed
+            TextBox2.Text = "store + number ="
+            number = 0
+            store = 0
+
+        ElseIf subtraction = True Then
+        End If
+    End Sub
 End Class
