@@ -51,9 +51,10 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(377, 70)
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(26, 52)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(299, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(299, 29)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = "0"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -61,9 +62,10 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Enabled = False
-        Me.TextBox2.Location = New System.Drawing.Point(377, 44)
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(26, 17)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(299, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(299, 29)
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Text = "0"
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -71,7 +73,7 @@ Partial Class Form1
         'Plus
         '
         Me.Plus.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Plus.Location = New System.Drawing.Point(621, 96)
+        Me.Plus.Location = New System.Drawing.Point(270, 87)
         Me.Plus.Name = "Plus"
         Me.Plus.Size = New System.Drawing.Size(55, 55)
         Me.Plus.TabIndex = 2
@@ -81,7 +83,7 @@ Partial Class Form1
         'One
         '
         Me.One.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.One.Location = New System.Drawing.Point(438, 157)
+        Me.One.Location = New System.Drawing.Point(87, 148)
         Me.One.Name = "One"
         Me.One.Size = New System.Drawing.Size(55, 55)
         Me.One.TabIndex = 3
@@ -91,7 +93,7 @@ Partial Class Form1
         'Two
         '
         Me.Two.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Two.Location = New System.Drawing.Point(499, 157)
+        Me.Two.Location = New System.Drawing.Point(148, 148)
         Me.Two.Name = "Two"
         Me.Two.Size = New System.Drawing.Size(55, 55)
         Me.Two.TabIndex = 4
@@ -101,7 +103,7 @@ Partial Class Form1
         'Five
         '
         Me.Five.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Five.Location = New System.Drawing.Point(499, 218)
+        Me.Five.Location = New System.Drawing.Point(148, 209)
         Me.Five.Name = "Five"
         Me.Five.Size = New System.Drawing.Size(55, 55)
         Me.Five.TabIndex = 5
@@ -111,7 +113,7 @@ Partial Class Form1
         'Four
         '
         Me.Four.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Four.Location = New System.Drawing.Point(438, 218)
+        Me.Four.Location = New System.Drawing.Point(87, 209)
         Me.Four.Name = "Four"
         Me.Four.Size = New System.Drawing.Size(55, 55)
         Me.Four.TabIndex = 6
@@ -121,7 +123,7 @@ Partial Class Form1
         'Eight
         '
         Me.Eight.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Eight.Location = New System.Drawing.Point(499, 279)
+        Me.Eight.Location = New System.Drawing.Point(148, 270)
         Me.Eight.Name = "Eight"
         Me.Eight.Size = New System.Drawing.Size(55, 55)
         Me.Eight.TabIndex = 7
@@ -131,7 +133,7 @@ Partial Class Form1
         'Nine
         '
         Me.Nine.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Nine.Location = New System.Drawing.Point(560, 279)
+        Me.Nine.Location = New System.Drawing.Point(209, 270)
         Me.Nine.Name = "Nine"
         Me.Nine.Size = New System.Drawing.Size(55, 55)
         Me.Nine.TabIndex = 8
@@ -141,7 +143,7 @@ Partial Class Form1
         'Six
         '
         Me.Six.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Six.Location = New System.Drawing.Point(560, 218)
+        Me.Six.Location = New System.Drawing.Point(209, 209)
         Me.Six.Name = "Six"
         Me.Six.Size = New System.Drawing.Size(55, 55)
         Me.Six.TabIndex = 9
@@ -151,7 +153,7 @@ Partial Class Form1
         'Three
         '
         Me.Three.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Three.Location = New System.Drawing.Point(560, 157)
+        Me.Three.Location = New System.Drawing.Point(209, 148)
         Me.Three.Name = "Three"
         Me.Three.Size = New System.Drawing.Size(55, 55)
         Me.Three.TabIndex = 10
@@ -161,7 +163,7 @@ Partial Class Form1
         'Square
         '
         Me.Square.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Square.Location = New System.Drawing.Point(377, 157)
+        Me.Square.Location = New System.Drawing.Point(26, 148)
         Me.Square.Name = "Square"
         Me.Square.Size = New System.Drawing.Size(55, 55)
         Me.Square.TabIndex = 11
@@ -171,7 +173,7 @@ Partial Class Form1
         'SquareRoot
         '
         Me.SquareRoot.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SquareRoot.Location = New System.Drawing.Point(377, 218)
+        Me.SquareRoot.Location = New System.Drawing.Point(26, 209)
         Me.SquareRoot.Name = "SquareRoot"
         Me.SquareRoot.Size = New System.Drawing.Size(55, 55)
         Me.SquareRoot.TabIndex = 12
@@ -181,7 +183,7 @@ Partial Class Form1
         'Seven
         '
         Me.Seven.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Seven.Location = New System.Drawing.Point(438, 279)
+        Me.Seven.Location = New System.Drawing.Point(87, 270)
         Me.Seven.Name = "Seven"
         Me.Seven.Size = New System.Drawing.Size(55, 55)
         Me.Seven.TabIndex = 13
@@ -191,7 +193,7 @@ Partial Class Form1
         'Exponent
         '
         Me.Exponent.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Exponent.Location = New System.Drawing.Point(377, 279)
+        Me.Exponent.Location = New System.Drawing.Point(26, 270)
         Me.Exponent.Name = "Exponent"
         Me.Exponent.Size = New System.Drawing.Size(55, 55)
         Me.Exponent.TabIndex = 14
@@ -201,7 +203,7 @@ Partial Class Form1
         'Roots
         '
         Me.Roots.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Roots.Location = New System.Drawing.Point(377, 340)
+        Me.Roots.Location = New System.Drawing.Point(26, 331)
         Me.Roots.Name = "Roots"
         Me.Roots.Size = New System.Drawing.Size(55, 55)
         Me.Roots.TabIndex = 15
@@ -211,7 +213,7 @@ Partial Class Form1
         'Zero
         '
         Me.Zero.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Zero.Location = New System.Drawing.Point(438, 340)
+        Me.Zero.Location = New System.Drawing.Point(87, 331)
         Me.Zero.Name = "Zero"
         Me.Zero.Size = New System.Drawing.Size(55, 55)
         Me.Zero.TabIndex = 16
@@ -221,7 +223,7 @@ Partial Class Form1
         'Point
         '
         Me.Point.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Point.Location = New System.Drawing.Point(499, 340)
+        Me.Point.Location = New System.Drawing.Point(148, 331)
         Me.Point.Name = "Point"
         Me.Point.Size = New System.Drawing.Size(55, 55)
         Me.Point.TabIndex = 17
@@ -231,7 +233,7 @@ Partial Class Form1
         'Negative
         '
         Me.Negative.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Negative.Location = New System.Drawing.Point(560, 340)
+        Me.Negative.Location = New System.Drawing.Point(209, 331)
         Me.Negative.Name = "Negative"
         Me.Negative.Size = New System.Drawing.Size(55, 55)
         Me.Negative.TabIndex = 18
@@ -241,7 +243,7 @@ Partial Class Form1
         'Solve
         '
         Me.Solve.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Solve.Location = New System.Drawing.Point(621, 340)
+        Me.Solve.Location = New System.Drawing.Point(270, 331)
         Me.Solve.Name = "Solve"
         Me.Solve.Size = New System.Drawing.Size(55, 55)
         Me.Solve.TabIndex = 19
@@ -251,7 +253,7 @@ Partial Class Form1
         'Divide
         '
         Me.Divide.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Divide.Location = New System.Drawing.Point(621, 279)
+        Me.Divide.Location = New System.Drawing.Point(270, 270)
         Me.Divide.Name = "Divide"
         Me.Divide.Size = New System.Drawing.Size(55, 55)
         Me.Divide.TabIndex = 20
@@ -261,7 +263,7 @@ Partial Class Form1
         'Multiply
         '
         Me.Multiply.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Multiply.Location = New System.Drawing.Point(621, 218)
+        Me.Multiply.Location = New System.Drawing.Point(270, 209)
         Me.Multiply.Name = "Multiply"
         Me.Multiply.Size = New System.Drawing.Size(55, 55)
         Me.Multiply.TabIndex = 21
@@ -271,7 +273,7 @@ Partial Class Form1
         'Minus
         '
         Me.Minus.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Minus.Location = New System.Drawing.Point(621, 157)
+        Me.Minus.Location = New System.Drawing.Point(270, 148)
         Me.Minus.Name = "Minus"
         Me.Minus.Size = New System.Drawing.Size(55, 55)
         Me.Minus.TabIndex = 22
@@ -281,7 +283,7 @@ Partial Class Form1
         'Clear
         '
         Me.Clear.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Clear.Location = New System.Drawing.Point(377, 96)
+        Me.Clear.Location = New System.Drawing.Point(26, 87)
         Me.Clear.Name = "Clear"
         Me.Clear.Size = New System.Drawing.Size(116, 55)
         Me.Clear.TabIndex = 23
@@ -291,7 +293,7 @@ Partial Class Form1
         'Backspace
         '
         Me.Backspace.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Backspace.Location = New System.Drawing.Point(499, 96)
+        Me.Backspace.Location = New System.Drawing.Point(148, 87)
         Me.Backspace.Name = "Backspace"
         Me.Backspace.Size = New System.Drawing.Size(116, 55)
         Me.Backspace.TabIndex = 24
@@ -302,7 +304,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(993, 446)
+        Me.ClientSize = New System.Drawing.Size(358, 405)
         Me.Controls.Add(Me.Backspace)
         Me.Controls.Add(Me.Clear)
         Me.Controls.Add(Me.Minus)
@@ -329,6 +331,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
